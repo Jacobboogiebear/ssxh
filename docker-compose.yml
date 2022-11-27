@@ -1,6 +1,6 @@
 version: "3.9"
 services:
   socketio:
-    build: service/Dockerfile
+    build: ./service/
     ports:
       - "3000:3000"
