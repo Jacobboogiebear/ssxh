@@ -1,2 +1,19 @@
 run = [ "service/hosts/replit.sh" ]
 entrypoint = "service/index.js"
+
+[packager]
+    ignoredPackages=[
+        "socket.io",
+        "socket.io-client",
+        "@babel/cli",
+        "@babel/core",
+        "@babel/preset-env",
+        "browserify",
+        "buffer",
+        "express",
+        "parcel",
+        "uglify-js",
+        "@types/node",
+        "node-fetch",
+        "express"
+    ]
