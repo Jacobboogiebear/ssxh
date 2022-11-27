@@ -1,1 +1,2 @@
+run = [ "service/hosts/replit.sh" ]
 entrypoint = "service/index.js"
