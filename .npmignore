@@ -1,0 +1,7 @@
+dist/.cache/
+service/
+src/
+.parcel-cache/
+demo/
+.replit
+README.md

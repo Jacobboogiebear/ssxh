@@ -1,0 +1,40 @@
+{
+  "name": "ssxh",
+  "version": "0.0.1-DEV",
+  "description": "",
+  "source": "src/index.js",
+  "targets": {
+    "buildcache": {
+      "source": "src/index.js",
+      "distDir": "dist/.cache/",
+      "includeNodeModules": false,
+      "optimize": false,
+      "outputFormat": "commonjs",
+      "isLibrary": true
+    }
+  },
+  "scripts": {
+    "build": "node tasks/build.js",
+    "demo": "node tasks/demo.js"
+  },
+  "keywords": [
+    "SSH",
+    "Client",
+    "Javascript"
+  ],
+  "author": "Jacob Allen Morris",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "browserify": "^17.0.0",
+    "buffer": "^5.7.1",
+    "express": "^4.18.2",
+    "parcel": "^2.8.0",
+    "uglify-js": "^3.17.4"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.5.4"
+  }
+}
