@@ -1,4 +1,4 @@
-run = [ "service/hosts/replit.sh" ]
+run = [ "npm", "start" ]
 entrypoint = "service/index.js"
 
 [packager]

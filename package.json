@@ -13,9 +13,13 @@
       "isLibrary": true
     }
   },
+  "engines": {
+    "node": "18.10.0"
+  },
   "scripts": {
     "build": "node tasks/build.js",
-    "demo": "node tasks/demo.js"
+    "demo": "node tasks/demo.js",
+    "start": "node tasks/start.js"
   },
   "keywords": [
     "SSH",

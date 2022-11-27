@@ -1,5 +1,5 @@
-const { mkdirSync, existsSync, rmSync, readFileSync, read, fstat, writeFileSync } = require('fs');
-const { execSync, exec } = require('child_process');
+const { mkdirSync, existsSync, rmSync, readFileSync, writeFileSync } = require('fs');
+const { execSync } = require('child_process');
 if (existsSync("dist/")) {
     rmSync("dist", { recursive: true, force: true });
 }
